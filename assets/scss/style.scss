@@ -1,0 +1,29 @@
+// specifications
+body {
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  padding: 0;
+  margin: 0 auto;
+}
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 160%;
+  color: #121920;
+}
+.hover-custom {
+  // hover
+  &:hover {
+    cursor: url("../img/other/cursor.png"), auto;
+  }
+}
+// specifications  end
+@import "./header";
+@import "./partners";
+@import "./responsive";
